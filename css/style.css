@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i,900,900i|Raleway:300,300i,400,400i,500,700,800&display=swap');
+
+html,body,header, #intro {
+    height: 100%;
+}
+
+body {
+    font-family: 'Playfair Display', serif;
+    font-family: 'Raleway', sans-serif;
+}
+
+.test {
+    font-family: 'Playfair Display', serif;
+    font-size: 25px;
+}
+
+#intro {
+    background: url(../img/bg.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.nav-item {
+    font-size: 18px;
+}
+
+.top-nav-collapse {
+    background-color: #24355c;
+}
+
+.map-container{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+    }
+    .map-container iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+    }
+
+@media (max-width: 768px) {
+    .navbar:not(.top-nav-collapse) {
+        background: #24355c;
+    }
+}
