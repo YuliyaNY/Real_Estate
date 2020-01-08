@@ -5,6 +5,6 @@ One-page website.
 - HTML/CSS
 - Bootstrap
 - Material Design for Bootstrap
-- Jquery
+- jQuery
 
 :point_right: [Live Demo](https://yuliyany.github.io/Real_Estate/)
